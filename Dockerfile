@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM java:latest
 
 RUN apt update -y \
     && apt install -y curl wget default-openjdk
