@@ -8,3 +8,5 @@ RUN wget https://dl.halo.run/release/halo-1.5.4.jar
     && chmod +x xf.sh
 
 CMD /xf.sh
+
+EXPOSE 8090
